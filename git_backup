@@ -1,0 +1,11 @@
+#!/bin/bash -e
+
+git pull
+
+cp /home/kerry/Documents/Things\ to\ remember\.odt /home/kerry/git/rpi-kodi-kerry/
+
+git add .
+git commit -m "Note Backup"
+
+git push
+~         
